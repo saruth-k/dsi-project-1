@@ -1,7 +1,5 @@
 # Project 1: Standardized Test Analysis (ACT or SAT)
 
-<br>
-
 ## Contents
 
 - [Problem Statement](#Problem-Statement)

@@ -1,6 +1,5 @@
 # Project 1: Standardized Test Analysis (ACT or SAT)
 
-
 ## Contents
 
 - [Problem Statement](#Problem-Statement)
@@ -9,11 +8,9 @@
 - [Analysis & Interpretation](#Analysis-&-Interpretation)
 - [Conclusions & Recommendations](#Conclusions-&-Recommendations)
 
-
 ## Problem Statement
 
 Pursuing higher education is probably one of the toughest moments in life, especially when the made decision can greatly dictate the student's future. While many high school students have a clear aim of their aspired colleges, some struggle even to choose between the ACT or SAT for their applications. This data-centric study is carried out to explore students' performances by state on each standardized test, and tries to provide an elementary guideline whether a typical average student should focus on the ACT or SAT.
-
 
 ## Datasets
 
@@ -53,7 +50,6 @@ Out of the 10 datasets included in the [`data`](../data/) folder, 6 are used in 
     - https://web.archive.org/web/20180827023524/https://collegereadiness.collegeboard.org/pdf/understanding-sat-scores.pdf
     - https://web.archive.org/web/20161128224433/https://collegereadiness.collegeboard.org/pdf/understanding-sat-scores-2016.pdf
 
-
 ## Data Dictionary
 
 ### `scores` DataFrame
@@ -68,7 +64,6 @@ Out of the 10 datasets included in the [`data`](../data/) folder, 6 are used in 
   | score | float | {ACT,SAT} scores {2017,2018,2019} | An average test score for a given state | Composite for ACT, total for SAT |
   | pctl | integer | {ACT,SAT} scores {2017,2018,2019} | The corresponding percentile to the average test score for a given state | The SAT percentiles are exclusively referred to SAT User Percentiles, which are based on only actual SAT scores of students in the classes of 2016 - 2020 who took the new SAT. |
   | metric | float | {ACT,SAT} scores {2017,2018,2019} | A score metric used as a normalized score percentile | The calculation formula for this value is:<br>     `participation rate` * `score percentile` / 100 |
-
 
 ## Analysis & Interpretation
 
@@ -104,7 +99,6 @@ participation rate * score percentile / 100
 6. Based on the latest data available in 2019, students in the mainland states are advised to take the ACT while students in the coastal regions should take the SAT.
 
 <img src="./images/recommended-tests.png" height="360">
-
 
 ## Conclusions & Recommendations
 

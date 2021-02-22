@@ -1,5 +1,6 @@
 # Project 1: Standardized Test Analysis (ACT or SAT)
 
+
 ## Contents
 
 - [Problem Statement](#Problem-Statement)
@@ -103,6 +104,7 @@ participation rate * score percentile / 100
 6. Based on the latest data available in 2019, students in the mainland states are advised to take the ACT while students in the coastal regions should take the SAT.
 
 <img src="./images/recommended-tests.png" height="360">
+
 
 ## Conclusions & Recommendations
 
